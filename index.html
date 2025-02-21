@@ -46,18 +46,29 @@
 
     <section id="contact">
         <h2>Contact Us</h2>
-        <form action="submit_form.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Submit</button>
-        </form>
+        <div class="contact-info">
+            <p>Address: 2nd floor, SAFA AMIN Parade corner, Chawkbazar, Chittagong</p>
+            <p>Phone: +880 1835-199322</p>
+            <p>Email: info@perfumezonechittagong.com</p>
+        </div>
+        <div class="contact-form">
+            <h3>DROP A MESSAGE</h3>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
     </section>
 
     <footer>
